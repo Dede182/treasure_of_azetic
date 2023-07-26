@@ -2,6 +2,8 @@
   width: calc($symbol-size-small);
   height: calc($symbol-size-small);
   display: flex;
+  align-items: center;
+  justify-content: center;
   margin: auto;
   will-change: transform;
   transform-origin: center;

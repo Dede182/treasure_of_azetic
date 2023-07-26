@@ -10,7 +10,7 @@ const MusicSvg = () => {
   const isMusicOn = useSelector((state: State) => state.settings.isMusicOn);
 
   return (
-    <img src={ten} className={styles.icon} width="50px" height="50" alt="" />
+    <img src={ten} className={styles.icon} width="70px" height="70" alt="" />
 
     // <svg
     //   className={styles.icon}

@@ -7,7 +7,7 @@ interface SymbolSvgProps {
 
 const BabylonSvg: React.FC<SymbolSvgProps> = ({ animate }) => {
   return (
-    <img src={skeleton} className={animate ? styles.icon : ''} width="50px" height="50" alt="" />
+    <img src={skeleton} className={animate ? styles.icon : ''} width="70px" height="70" alt="" />
 
     // <svg
     //   aria-hidden={true}

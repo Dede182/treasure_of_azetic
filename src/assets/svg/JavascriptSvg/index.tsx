@@ -7,7 +7,7 @@ interface SymbolSvgProps {
 
 const JavascriptSvg: React.FC<SymbolSvgProps> = ({ animate }) => {
   return (
-    <img src={ten} className={animate ? styles.icon : ''} width="50px" height="50" alt="" />
+    <img src={ten} className={animate ? styles.icon : ''} width="70px" height="70" alt="" />
 
     // <svg
     //   aria-hidden={true}

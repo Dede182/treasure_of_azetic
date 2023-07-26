@@ -25,7 +25,7 @@ const JestSvg: React.FC<SymbolSvgProps> = ({ animate }) => {
     //     />
     //   </g>
     // </svg>
-    <img src={guitar} className={animate ? styles.icon : ''} width="50px" height="50" alt="" />
+    <img src={guitar} className={animate ? styles.icon : ''} width="70px" height="70" alt="" />
   );
 };
 

@@ -2,7 +2,7 @@ import { State } from '@/store/types';
 import { Theme } from '@/types';
 import { useSelector } from 'react-redux';
 import styles from './styles.module.scss';
-import ten from '../../images/symbols/wild-bandito_s_wild.png'
+import ten from '../../images/symbols/gole2.jpeg'
 
 const SunMoonSvg = () => {
   const isDarkTheme = useSelector((state: State) => state.settings.currentTheme) === Theme.DARK;

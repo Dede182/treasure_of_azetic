@@ -93,7 +93,6 @@ const App = () => {
             <main>
               <SlotMachine />
             </main>
-            <Footer />
           </div>
           <Modal
             title={modalData?.title || ''}
