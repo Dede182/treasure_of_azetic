@@ -41,7 +41,7 @@ button {
   font-family: $font-primary;
   font-size: $font-small;
   position: relative;
-
+  padding-top:100px;
   &--loading {
     visibility: hidden;
   }
