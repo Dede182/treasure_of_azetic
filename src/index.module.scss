@@ -37,6 +37,10 @@ button {
   width: 100vw;
   height: 100vh;
   background-color: var(--color-primary);
+  background-image: url('/assets/images/background.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   color: var(--color-font);
   font-family: $font-primary;
   font-size: $font-small;
