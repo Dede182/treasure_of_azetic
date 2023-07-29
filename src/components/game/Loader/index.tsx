@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { SlotHeader } from '@/components/ui/SlotHeader';
 import styles from './styles.module.scss';
-
+import logo from '../../../assets/logo.png'
 interface LoaderProps {
   loadingTime: number; // in milliseconds
   onLoadEnd: () => void;
@@ -15,6 +15,7 @@ const Loader: React.FC<LoaderProps> = ({ loadingTime, onLoadEnd }) => {
 
   useEffect(() => {
     let timerId: ReturnType<typeof setTimeout> | undefined;
+
     if (progressValue >= 100) {
       clearTimeout(timerId);
       return onLoadEnd();
@@ -28,7 +29,8 @@ const Loader: React.FC<LoaderProps> = ({ loadingTime, onLoadEnd }) => {
 
   return (
     <div className={styles.loader}>
-      <SlotHeader title={t('global.loading')} additionalClass={styles['loader__slot']} />
+      {/* <SlotHeader title={t('global.loading')} additionalClass={styles['loader__slot']} /> */}
+      <img src ={ logo }  style={{ width : '200px' }}/>
       <div className={styles['loader__progress-wrapper']}>
         <div
           className={styles['loader__progress']}

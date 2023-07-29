@@ -41,7 +41,7 @@ button {
   font-family: $font-primary;
   font-size: $font-small;
   position: relative;
-  padding-top:100px;
+  padding-top:20px;
   &--loading {
     visibility: hidden;
   }
@@ -97,7 +97,7 @@ button {
       left: 0;
       width: 100%;
       height: 100%;
-      opacity: 0.2;
+      opacity: 0.9;
       
     }
   }

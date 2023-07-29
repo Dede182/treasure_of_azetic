@@ -1,5 +1,5 @@
 import styles from './styles.module.scss';
-import ten from '../../images/symbols/wild-bandito_l_10.png'
+import ten from '../../symbols/gdragon.png'
 
 interface SymbolSvgProps {
   animate?: boolean;

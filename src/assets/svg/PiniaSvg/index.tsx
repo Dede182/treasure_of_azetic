@@ -1,4 +1,4 @@
-import ten from '../../images/symbols/wild-bandito_l_k.png'
+import ten from '../../symbols/phoenix-rises_egg.png'
 import styles from './styles.module.scss';
 interface SymbolSvgProps {
   animate?: boolean;
@@ -6,7 +6,7 @@ interface SymbolSvgProps {
 
 const PiniaSvg: React.FC<SymbolSvgProps> = ({ animate }) => {
   return (
-    <img src={ten}   className={animate ? styles['icon__eye-ball'] : ''} width="70px" height="70" alt="" />
+    <img src={ten}   className={animate ? styles['icon__eye-ball'] : ''} width="50px" height="50px" alt="" />
     
     // <svg
     //   aria-hidden={true}

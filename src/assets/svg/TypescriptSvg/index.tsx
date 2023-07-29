@@ -1,5 +1,6 @@
 import styles from './styles.module.scss';
-import ten from '../../images/symbols/dia.png'
+import ten from '../../symbols/dragon-tiger-luck_tiger_gold.png'
+
 
 interface SymbolSvgProps {
   animate?: boolean;
