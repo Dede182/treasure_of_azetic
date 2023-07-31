@@ -1,5 +1,5 @@
 import styles from './styles.module.scss';
-import ten from '../../symbols/water-dragon3.png'
+import ten from '../../symbols/treasures-of-aztec_l_a.png'
 
 interface SymbolSvgProps {
   animate?: boolean;
@@ -7,7 +7,7 @@ interface SymbolSvgProps {
 
 const ReduxSvg: React.FC<SymbolSvgProps> = ({ animate }) => {
   return (
-    <img src={ten} className={animate ? styles.icon : ''} width="50px" height="50" alt="" />
+    <img src={ten} className={animate ? styles.icon : ''} width="70px" height="70" alt="" />
 
     // <svg
     //   aria-hidden={true}

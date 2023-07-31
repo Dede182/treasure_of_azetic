@@ -1,5 +1,5 @@
 import styles from './styles.module.scss';
-import guitar from '../../symbols/fire-dragon3.png'
+import guitar from '../../symbols/treasures-of-aztec_h_purple_mask_a.png'
 interface SymbolSvgProps {
   animate?: boolean;
 }

@@ -1,4 +1,4 @@
-import ten from '../symbols/DragonLegend_Koi.png'
+import ten from '../symbols/NinjavsSamurai_H_Shuriken.png'
 
 interface SymbolSvgProps {
   animate?: boolean;

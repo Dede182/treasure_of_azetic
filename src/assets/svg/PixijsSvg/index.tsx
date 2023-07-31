@@ -1,5 +1,5 @@
 import styles from './styles.module.scss';
-import ten from '../../symbols/phoenix-rises_phoenix-idle.png'
+import ten from '../../symbols/treasures-of-aztec_l_j.png'
 
 interface SymbolSvgProps {
   animate?: boolean;

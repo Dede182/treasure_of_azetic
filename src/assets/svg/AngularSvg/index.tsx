@@ -1,5 +1,5 @@
 import styles from './styles.module.scss';
-import maraca from '../../symbols/earth-dragon.png'
+import maraca from '../../symbols/NinjavsSamurai_H_Sword.png'
 
 interface SymbolSvgProps {
   animate?: boolean;
@@ -7,7 +7,7 @@ interface SymbolSvgProps {
 
 const AngularSvg: React.FC<SymbolSvgProps> = ({ animate }) => {
   return (
-    <img src={maraca} className={animate ? styles.icon : ''} width="50px" height="50px" alt="" />
+    <img src={maraca} className={animate ? styles.icon : ''} width="70px" height="70px" alt="" />
 
     // <svg
     //   aria-hidden={true}

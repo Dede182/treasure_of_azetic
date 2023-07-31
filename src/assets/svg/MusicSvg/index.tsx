@@ -1,7 +1,7 @@
 import { State } from '@/store/types';
 import { useSelector } from 'react-redux';
 import styles from './styles.module.scss';
-import ten from '../../symbols/mother-dragon3.png'
+import ten from '../../symbols/treasures-of-aztec_h_redviolet_mask_a.png'
 interface SymbolSvgProps {
   animate?: boolean;
 }

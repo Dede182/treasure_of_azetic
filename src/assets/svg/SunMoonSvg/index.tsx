@@ -2,13 +2,13 @@ import { State } from '@/store/types';
 import { Theme } from '@/types';
 import { useSelector } from 'react-redux';
 import styles from './styles.module.scss';
-import ten from '../../symbols/DragonLegend_Bonus.png'
+import ten from '../../symbols/treasures-of-aztec_l_q.png'
 
 const SunMoonSvg = () => {
   const isDarkTheme = useSelector((state: State) => state.settings.currentTheme) === Theme.DARK;
 
   return (
-    <img src={ten} className={`${styles['icon__sun']} ${isDarkTheme ? `${styles['icon__sun--dark']}` : ''}`} width="50px" height="50" alt="" />
+    <img src={ten} className={`${styles['icon__sun']} ${isDarkTheme ? `${styles['icon__sun--dark']}` : ''}`} width="70px" height="70" alt="" />
 
     // <svg
     //   enableBackground="new 0 0 45.16 45.16"

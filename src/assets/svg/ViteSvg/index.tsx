@@ -1,5 +1,5 @@
 import styles from './styles.module.scss';
-import ten from '../../symbols/DragonLegend_LotusFlower.png'
+import ten from '../../images/symbols/wild-bandito_h_maraca.png'
 
 interface SymbolSvgProps {
   animate?: boolean;
@@ -7,7 +7,7 @@ interface SymbolSvgProps {
 
 const ViteSvg: React.FC<SymbolSvgProps> = ({ animate }) => {
   return (
-    <img src={ten} className={animate ? styles['icon__bolt'] : ''} width="50px" height="50" alt="" />
+    <img src={ten} className={animate ? styles['icon__bolt'] : ''} width="70px" height="70" alt="" />
 
     // <svg
     //   aria-hidden={true}

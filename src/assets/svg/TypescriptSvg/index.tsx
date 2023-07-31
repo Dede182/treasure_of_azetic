@@ -1,5 +1,5 @@
 import styles from './styles.module.scss';
-import ten from '../../symbols/dragon-tiger-luck_tiger_gold.png'
+import ten from '../../symbols/treasures-of-aztec_s_scatter_a_en.png'
 
 
 interface SymbolSvgProps {
@@ -7,7 +7,7 @@ interface SymbolSvgProps {
 }
 const TypescriptSvg: React.FC<SymbolSvgProps> = ({ animate }) => {
   return (
-    <img src={ten} className={animate ? styles.icon : ''} width="50px" height="50" alt="" />
+    <img src={ten} className={animate ? styles.icon : ''} width="70px" height="70" alt="" />
 
     // <svg
     //   aria-hidden={true}

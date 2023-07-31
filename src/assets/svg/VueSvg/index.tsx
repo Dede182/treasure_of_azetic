@@ -1,5 +1,5 @@
 import styles from './styles.module.scss';
-import ten from '../../symbols/GemSaviour_Giant.png'
+import ten from '../../images/symbols/wild-bandito_h_tequila.png'
 
 interface SymbolSvgProps {
   animate?: boolean;

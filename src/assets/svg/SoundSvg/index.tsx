@@ -1,13 +1,13 @@
 import { State } from '@/store/types';
 import { useSelector } from 'react-redux';
 import styles from './styles.module.scss';
-import ten from '../../images/symbols/wild-bandito_s_scatter.png'
+import ten from '../../images/symbols/wild-bandito_l_k.png'
 
 const SoundSvg = () => {
   const isSoundOn = useSelector((state: State) => state.settings.isSoundOn);
 
   return (
-    <img src={ten} className={`${styles.icon}`} width="50px" height="50" alt="" />
+    <img src={ten} className={`${styles.icon}`} width="70px" height="70" alt="" />
 
     // <svg
     //   aria-hidden={true}

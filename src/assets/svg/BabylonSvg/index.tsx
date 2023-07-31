@@ -1,5 +1,5 @@
 import styles from './styles.module.scss';
-import skeleton from '../../symbols/egg.png'
+import skeleton from '../../symbols/treasures-of-aztec_h_brown_mask_a.png'
 
 interface SymbolSvgProps {
   animate?: boolean;
@@ -7,7 +7,7 @@ interface SymbolSvgProps {
 
 const BabylonSvg: React.FC<SymbolSvgProps> = ({ animate }) => {
   return (
-    <img src={skeleton} className={animate ? styles.icon : ''} width="50px" height="50" alt="" />
+    <img src={skeleton} className={animate ? styles.icon : ''} width="70px" height="70" alt="" />
 
     // <svg
     //   aria-hidden={true}
